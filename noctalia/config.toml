@@ -1,8 +1,8 @@
 [nightlight]
 enabled = true
 force = true
-temperature_day = 4500
-temperature_night = 4500
+temperature_day = 4000
+temperature_night = 4000
 
 [plugins]
 enabled = ["raycursive/niri-displays", "yuuto/arch-updater"]
@@ -15,7 +15,7 @@ settings_show_advanced = false
 [theme]
 mode = "dark"
 source = "custom"
-custom_palette = "TokyoNight"
+custom_palette = "RosePineClassic"
 
 [theme.templates]
 builtin_ids = ["alacritty"]
