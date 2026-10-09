@@ -1,4 +1,8 @@
 [bar.default]
+thickness = 38
+background_opacity = 0.0
+widget_spacing = 8
+padding = 12
 center = ["group:g1"]
 end = ["media", "tray", "notifications", "clipboard", "group:g3", "widget", "session"]
 start = ["launcher", "wallpaper", "workspaces", "group:g2"]
@@ -10,7 +14,7 @@ enabled = true
 fill = "surface_variant"
 id = "g1"
 members = ["clock", "date"]
-opacity = 1.0
+opacity = 0.9
 padding = 6.0
 
 [[bar.default.capsule_group]]
@@ -20,7 +24,7 @@ enabled = true
 fill = "surface_variant"
 id = "g2"
 members = ["cpu", "ram"]
-opacity = 1.0
+opacity = 0.9
 padding = 6.0
 
 [[bar.default.capsule_group]]
@@ -31,5 +35,5 @@ enabled = true
 fill = "surface_variant"
 id = "g3"
 members = ["control-center", "network", "bluetooth", "volume", "battery"]
-opacity = 1.0
+opacity = 0.9
 padding = 6.0
