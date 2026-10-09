@@ -1,0 +1,42 @@
+[nightlight]
+enabled = true
+force = true
+temperature_day = 4500
+temperature_night = 4500
+
+[plugins]
+enabled = ["raycursive/niri-displays", "yuuto/arch-updater"]
+
+[shell]
+polkit_agent = true
+font_family = "Open Sans"
+settings_show_advanced = false
+
+[theme]
+mode = "dark"
+source = "custom"
+custom_palette = "TokyoNight"
+
+[theme.templates]
+builtin_ids = ["alacritty"]
+
+[wallpaper]
+transition_on_startup = true
+
+[wallpaper.automation]
+enabled = true
+
+[widget.media]
+hide_when_no_media = true
+
+[widget.network]
+show_label = false
+
+[widget.sysmon]
+stat = "ram_used"
+
+[widget.wallpaper]
+enabled = false
+
+[widget.widget]
+type = "yuuto/arch-updater:widget"
