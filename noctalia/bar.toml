@@ -1,8 +1,9 @@
 [bar.default]
 thickness = 38
-background_opacity = 0.0
+background_opacity = 0.92
 widget_spacing = 8
 padding = 12
+hover_highlight = true
 center = ["group:g1"]
 end = ["media", "tray", "notifications", "clipboard", "group:g3", "widget", "session"]
 start = ["launcher", "wallpaper", "workspaces", "group:g2"]

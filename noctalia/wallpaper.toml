@@ -1,2 +1,5 @@
 [wallpaper]
 directory = "/home/juan/.config/noctalia/wallpapers"
+
+[wallpaper.automation]
+interval_seconds = 900
