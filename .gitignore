@@ -6,3 +6,9 @@
 !/noctalia/**
 !/alacritty/
 !/alacritty/**
+!/zed/
+/zed/*
+!/zed/settings.json
+!/zed/themes/
+/zed/themes/*
+!/zed/themes/rose-pine-classic.json

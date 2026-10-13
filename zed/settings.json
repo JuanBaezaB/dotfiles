@@ -1,0 +1,62 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    }
+  },
+  "git_panel": {
+    "group_by": "staging",
+    "tree_view": false
+  },
+  "cli_default_open_behavior": "existing_window",
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1500
+    }
+  },
+  "format_on_save": "on",
+  "line_ending": "enforce_lf",
+  "soft_wrap": "editor_width",
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "agent_servers": {
+    "github-copilot-cli": {
+      "type": "registry"
+    },
+    "codex-acp": {
+      "type": "registry"
+    }
+  },
+  "icon_theme": "Zed (Default)",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "dark",
+    "light": "Ayu Light",
+    "dark": "Noctalia Rose Pine Classic",
+  },
+  "context_servers": {
+    "codebase-memory-mcp": {"command":"/home/juan/.local/bin/codebase-memory-mcp","args":[]}
+  },
+}
