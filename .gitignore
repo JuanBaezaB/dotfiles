@@ -4,6 +4,12 @@
 !/README.md
 !/noctalia/
 !/noctalia/**
+!/niri/
+/niri/config
+/niri/config.kdl.bak
+!/niri/config.kdl
+!/niri/cfg/
+!/niri/cfg/*.kdl
 !/alacritty/
 !/alacritty/**
 !/zed/
