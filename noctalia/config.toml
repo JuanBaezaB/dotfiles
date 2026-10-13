@@ -2,7 +2,7 @@
 enabled = true
 force = true
 temperature_day = 4000
-temperature_night = 4000
+temperature_night = 3500
 
 [plugins]
 enabled = ["raycursive/niri-displays", "yuuto/arch-updater"]
