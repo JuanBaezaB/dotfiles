@@ -9,7 +9,7 @@ enabled = ["raycursive/niri-displays", "yuuto/arch-updater"]
 
 [shell]
 polkit_agent = true
-font_family = "Open Sans"
+font_family = "JetBrainsMono Nerd Font"
 settings_show_advanced = false
 
 [theme]
