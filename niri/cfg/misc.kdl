@@ -23,7 +23,9 @@
     }
 
     debug {
-        // Allows notification actions and window activation from Noctalia.
+        // Honor XDG activation tokens with invalid serials. This can make
+        // tray/notification activation work in some apps, but may also allow
+        // unexpected focus changes. Disable if apps start stealing focus.
         honor-xdg-activation-with-invalid-serial
     }
 
